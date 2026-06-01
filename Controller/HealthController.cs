@@ -12,7 +12,8 @@ public class HealthController : ControllerBase
         return Ok(new
         {
             Status  = "Healthy",
-            Time    = DateTime.UtcNow,
+            Timestamp = DateTime.UtcNow,
+            Time = DateTime.Now.ToString(),
             Service = "SimpleApiApp"
         });
     }
