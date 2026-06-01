@@ -13,7 +13,7 @@ public class HealthController : ControllerBase
         {
             Status  = "Healthy",
             Time    = DateTime.UtcNow,
-            Service = "MyApiApp"
+            Service = "SimpleApiApp"
         });
     }
 }
